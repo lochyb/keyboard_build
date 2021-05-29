@@ -7,8 +7,8 @@ CRKBD Corne v3 Build Log/ Setup
 ![](./images/crkbd03.jpg)
 
 
-<div style="display:flex">
-<img src="https://raw.githubusercontent.com/lochyb/keyboard_build/master/images/crkbd05.jpg" alt="Keyboard Photo 5" width="200" height="auto"/>
+<div>
+<img style="float:left" src="https://raw.githubusercontent.com/lochyb/keyboard_build/master/images/crkbd05.jpg" alt="Keyboard Photo 5" width="200" height="auto"/>
   <p>I added a custom logo to the right side of the keyboard. 
   I used this two articles as a guide to do so.
   <ul>
