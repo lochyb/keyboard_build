@@ -2,6 +2,21 @@
 
 CRKBD Corne v3 Build Log/ Setup
 
+I wanted to improve my desk ergonomics so I decided to purchase a built it yourself keyboard kit.
+
+For those in Japan you can purcashe the kit from here
+<ul>
+  <li><a href="https://shop.yushakobo.jp/"> https://shop.yushakobo.jp/</a>
+  </ul>
+
+The assembely requires soldering and little but of computer skills to flash the software on the keyboard.
+
+There is an online guide available in both Japanese and English here at
+<ul>
+  <li><a href="https://github.com/foostan/crkbd">https://github.com/foostan/crkbd/</a>
+  </ul>
+
+
 ![](./images/crkbd01.jpg)
 
 ![](./images/crkbd03.jpg)
