@@ -1,6 +1,6 @@
 # keyboard_build
 
-CRKBD Corne v3 Build Log/ Setup
+CRKBD Corne v3 Build Log / Setup
 
 I wanted to improve my desk ergonomics so I decided to purchase a built it yourself keyboard kit.
 
