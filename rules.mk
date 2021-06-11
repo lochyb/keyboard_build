@@ -5,4 +5,5 @@ AUDIO_ENABLE = no           # Audio output on port C6
 MOUSEKEY_ENABLE = yes
 RGBLIGHT_ENABLE = yes
 OLED_DRIVER_ENABLE  = yes
+BOOTMAGIC_ENABLE = full
 CFLAGS += -flto
