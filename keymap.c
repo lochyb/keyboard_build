@@ -20,7 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 enum custom_keycodes {
   ARROW = SAFE_RANGE,
-  YORO,
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -30,13 +29,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 SEND_STRING("=>");
             }
             return false;
-
-        // case YORO:
-        //     if (record->event.pressed) {
-        //             SEND_STRING("");
-        //           }
-        //         return false;
-        }
+ }
     return true;
 }
 
@@ -66,11 +59,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
 
     [2] = LAYOUT_split_3x6_3(
-        KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          LCTL(KC_LEFT), LCTL(KC_DOWN), KC_UP, LCTL(KC_UP), LCTL(KC_RIGHT), KC_BSPC,
+        KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          LCTL(KC_LEFT), LCTL(KC_DOWN), LCTL(KC_UP), LCTL(KC_RIGHT), XXXXXXX, KC_BSPC,
         //,-----------------------------------------------------.    ,-----------------------------------------------------.
-        KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, KC_LEFT, KC_DOWN, KC_RIGHT, XXXXXXX, XXXXXXX,
+        KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, XXXXXXX, XXXXXXX,
         //,-----------------------------------------------------.    ,-----------------------------------------------------.
-        KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, KC_BTN1, KC_BTN2,         SGUI(KC_LEFT), SGUI(KC_RIGHT), XXXXXXX, ARROW, XXXXXXX, KC_ENT,
+        KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, KC_BTN1, KC_BTN2,         RCS(KC_TAB), LCTL(KC_TAB), XXXXXXX, ARROW, XXXXXXX, KC_ENT,
         //,-----------------------------------------------------.    ,-----------------------------------------------------.
         KC_LGUI, KC_LCTL, KC_LALT,                                     _______, XXXXXXX, KC_RALT
         //,-----------------------------------------------------.    ,-----------------------------------------------------.
